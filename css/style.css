@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+/* INFORMACION*/
+body{
+    font-family: 'Oswald', sans-serif;
+     margin: 0;
+     background-color: rgb(255, 255, 255)
+
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(237, 177, 99)
+    
+}
+
+h1{
+
+    color: rgb(255, 175, 26); font-size: 26px;
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.analisismedula{
+    width: 300px;
+    margin-left: 30px;
+   
+}
+
+.cateter{
+    width: 300px;
+    margin-left: 30px;
+    
+}
+
+footer{
+    display: block;
+    min-height: 60px;
+    background-color: rgb(255, 175, 26);
+    text-align: center;
+    padding-top: 15px;
+    border-top: 5px solid #6900af;
+    margin-top: 20px;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 2px rgb(113, 4, 149);
+
+}
+
+.content-footer{
+    text-align: center;
+}
+
+.content-footer h4{
+    color: #6900af;
+    border-color: 2px outset #6900af;
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-shadow: 2px 2px 0 greenyellow, 4px 4px 0 violet
+}
+
+.content-footer p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px violet;
+}
+
+/* FIN INFORMACION*/
+
+
+
+
+
+
+
+/* TRATAMIENTOS*/
+body{
+    font-family: 'Oswald', sans-serif;
+     margin: 0;
+     background-color: rgb(255, 255, 255)
+
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(237, 177, 99)
+    
+}
+
+h1{
+
+    color: rgb(255, 175, 26); font-size: 26px;
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    color: rgb(174, 71, 128);
+
+}
+
+.flex{
+    flex: 30px;
+    background-color: rgb(252, 206, 237);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+
+
+table{
+    background-color: rgba(222, 82, 203, 0);
+    justify-content: center;
+    margin-left: 200px;
+    
+}
+
+.fila{
+    background-color: #28cb2d;
+}
+
+.columna{
+    background-color: #e5cff4;
+}
+
+
+
+footer{
+    display: block;
+    min-height: 60px;
+    background-color: rgb(255, 175, 26);
+    text-align: center;
+    padding-top: 15px;
+    border-top: 5px solid #6900af;
+    margin-top: 20px;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 2px rgb(113, 4, 149);
+
+}
+
+.content-footer{
+    text-align: center;
+}
+
+.content-footer h4{
+    color: #6900af;
+    border-color: 2px outset #6900af;
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-shadow: 2px 2px 0 greenyellow, 4px 4px 0 violet
+}
+
+.content-footer p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px violet;
+}
+
+.sintomas{
+    color: rgb(0, 0, 0);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* FIN TRATAMIENTOS*/
+
+
+
+/* CONSEJOS*/
+
+.consejos{
+    color: rgb(255, 175, 26); font-size: 26px;
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+  /* formulario contacto*/
+.formcontacto{
+    background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+    font-family: 'Oswald', sans-serif;
+    min-height: 100vh;
+    width: 100%;
+    
+}
+
+.form{
+background-color: #fff;
+width: 90%;
+max-width: 400%;
+border-radius: 1em;
+padding: 3.5em 1.5em;
+margin: auto;
+}
+
+.form__container{
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+}
+
+.form__title{
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: .4em;
+}
+
+.form__input{
+    font-size: inherit;
+    font-family: inherit;
+    padding: .8em 1em;
+    outline: none;
+    border: none;
+    border: 1px solid #6900af;
+    border-radius: 0.2em;
+}
+
+.form__input--message{
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom: .5em;
+}
+
+.form__cta{
+    font-family: inherit;
+    font-size: 1rem;
+    background-color: #fccb90;
+    color: #6900af;
+    font-weight: 300;
+    padding: .7em 0;
+    border-radius: .2em;
+    cursor: pointer;
+    font-weight: 400;
+    border: none
+    
+}
+
+@media (max-width:400px) {
+    .form{
+        padding: 3.5em 1em;
+    }
+}
+
+/* fin form contacto*/
+
+/* HABLEMOS D LEUCEMIA*/
+
+.hablemosdeleucemia{
+    background: #e5cff4;
+    padding: 1em;
+}
+
+.hablemosdeleucemia:hover{
+    background: #8d0999;
+    transition: background-color 2s
+}
+
+.transic{
+    display: grid;
+    grid-template-rows: 5% 5% 5% 5% 5%;
+    background-color: #cbfbff;
+}
+
+.transic:hover{
+
+    background: red;
+    transition: background-color 2s
+}
+
+.tipos{
+    margin: 50px;
+}
+
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+    gap: 1em;
+}
+
+
+/* FIN HABLEMOS DE LEUCEMIA*/
+
+

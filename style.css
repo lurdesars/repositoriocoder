@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+/* INICIO */
+body{
+    font-family: 'Oswald', sans-serif;
+     margin: 0;
+     background-color: rgb(255, 255, 255)
+
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(237, 177, 99)
+    
+    
+}
+
+
+h1{
+
+    color: rgb(255, 175, 26); font-size: 26px;
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: animate__heartBeat;
+    animation-duration: 2s;
+}
+
+.vision{
+    width: 120px;
+    margin-left: 550px;
+}
+
+.mision{
+    width: 120px;
+    margin-left: 550px;
+    padding-top: 25px;
+}
+
+.donasangre{
+    width: 120px;
+    float: left;
+    margin-right: 20px;
+}
+
+aside{
+    flex: 30px;
+    background-color: rgb(189, 7, 125);
+    padding: 20px;
+}
+
+section{
+    flex: 70%;
+    background-color: rgb(54, 174, 2);
+    padding: 20px;
+}
+
+
+
+footer{
+    display: block;
+    min-height: 60px;
+    background-color: rgb(255, 175, 26);
+    text-align: center;
+    padding-top: 15px;
+    border-top: 5px solid #6900af;
+    margin-top: 20px;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 2px rgb(113, 4, 149);
+
+}
+
+.content-footer{
+    text-align: center;
+}
+
+.content-footer h4{
+    color: #6900af;
+    border-color: 2px outset #6900af;
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-shadow: 2px 2px 0 greenyellow, 4px 4px 0 violet
+}
+
+.content-footer p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px violet;
+}
+
+
+/* FIN INICIO*/
+
